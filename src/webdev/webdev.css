@@ -1,0 +1,89 @@
+html {
+    font-size: 18;
+    background-color: lightslategray;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+body, .footer{
+    margin: 0;
+}
+
+/* navigation setting*/
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+    background-color: lightgrey;
+    padding: 3px;
+}
+
+#logo {
+    height: 90%;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navitem{
+    margin: 10px;
+    display: flex;
+    background-color: darkviolet;
+    height: 55%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navitem:hover {
+    background-color: darkturquoise;
+    color: black;
+    cursor: pointer;
+}
+
+#active_tab {
+    background-color: darkturquoise;
+    color: black;
+}
+
+
+/* SETTINGS FOR THE REST OF THE STUFF THAT WILL EVENTUALLY GO HERE */
+.web_blurb{
+    width: 768px;
+    background-color: white;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+
+/* footer black settings*/
+
+.footer{
+    background-color: lightgrey;
+    margin: 0px;
+    padding: 3px;
+}
+
+.footnav {
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footnav p {
+    display: inline-block;
+}
