@@ -79,14 +79,14 @@ nav {
 #description{
     display:flex;
     font-size: .5rem;
-    background-color: lightgrey;
+    background-color: white;
     opacity: 0.9;
 }
 
 #page_title{
     display: flex;
     font-size: 1.5rem;
-    background-color: lightgrey;
+    background-color: white;
     opacity: 0.9;
 }
 
@@ -106,12 +106,19 @@ nav {
     background-color: lightslategrey;
 }
 
+.subject1 {
+    background-image: url(./resources/home-lighting.jpeg);
+}
+
+.subject2 {
+    background-image: url(./resources/home-webdev.jpeg);
+}
+
 .subject1, .subject2 {
     display: inline-flex;
     height: 100%;
     justify-content: center;
     align-items:center;
-    background-image: url(./resources/placeholder-home.jpeg);
     background-size: 346px 100%;
     background-repeat: no-repeat;
 }
@@ -123,7 +130,7 @@ nav {
 #web_link, #light_link{
     color: darkviolet;
     background-color:lightgrey;
-    opacity: .9;
+    opacity: .8;
 }
 
 /* SCREEN SIZE SETTINGS AND CONTROL */
