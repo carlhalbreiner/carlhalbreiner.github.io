@@ -1,6 +1,6 @@
 html {
     font-size: 18;
-    background-color: lightslategray;
+    background-color: #278AB0;
 }
 
 h1, h2, h3, p {
@@ -14,7 +14,8 @@ body, .footer{
 /* Contact Box */
 
 .contact {
-    background-color: white;
+    background-color: ivory;
+    color: #1C4670;
     width:768px;
     margin:20px auto;
     margin-bottom: 400px;
@@ -35,7 +36,7 @@ nav {
     height: 10%;
     width: 100%;
     flex-direction: row;
-    background-color: lightgrey;
+    background-color: #1C4670;
     padding: 3px;
 }
 
@@ -54,24 +55,24 @@ nav {
 .navitem{
     margin: 10px;
     display: flex;
-    background-color: darkviolet;
+    background-color: #278AB0;
     height: 55%;
     width: auto;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     border: 2px solid black;
     border-radius: 10px;
 }
 
 .navitem:hover {
-    background-color: darkturquoise;
+    background-color: #1DC690;
     color: black;
     cursor: pointer;
 }
 
 #active_tab {
-    background-color: darkturquoise;
+    background-color: #1DC690;
     color: black;
 }
 
@@ -79,7 +80,7 @@ nav {
 /* footer black settings*/
 
 .footer{
-    background-color: lightgrey;
+    background-color: #1C4670;
     margin: 0px;
     padding: 3px;
 }
@@ -92,4 +93,5 @@ nav {
 
 .footnav p {
     display: inline-block;
+    color: #1DC690;
 }
