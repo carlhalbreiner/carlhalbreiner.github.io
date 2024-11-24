@@ -20,14 +20,12 @@ nav {
     width: 100%;
     flex-direction: row;
     background-color: #1C4670;
-    padding: 3px;
+    border-bottom: 2px solid black;
 }
 
 #logo {
-    height: 90%;
     display: flex;
-    border: 2px solid black;
-    border-radius: 100px;
+    border-right: 2px solid black;
 }
 
 .navbar {
@@ -35,8 +33,9 @@ nav {
     align-items: center;
 }
 
-.navitem{
-    margin: 10px;
+.navitem {
+    margin: 0em .3em;
+    padding: 0em 1em;
     display: flex;
     background-color: #278AB0;
     height: 55%;
@@ -45,7 +44,7 @@ nav {
     justify-content: center;
     color: black;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .navitem:hover {
@@ -69,36 +68,39 @@ nav {
     background-image: url(./resources/home-main.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #278AB0;
+    background-color: #1f1821;
     color: #1C4670;
     height: 500px;
     background-size: 900px 500px;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 #description{
-    display:flex;
+    display: flex;
     font-size: .5rem;
     background-color: ivory;
-    opacity: 0.9;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: .5em;
 }
 
 #page_title{
     display: flex;
     font-size: 1.5rem;
     background-color: ivory;
-    opacity: 0.9;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: .5em;
 }
 
 /*subject containers*/
 .subjects {
     background-color: #278AB0;
-    margin: auto;
+    margin: 1em 0;
 }
 
 .subj_container {
@@ -119,11 +121,13 @@ nav {
     background-image: url(./resources/home-webdev.jpeg);
 }
 
-.subject1, .subject2 {
+.subject {
     display: inline-flex;
     height: 100%;
     justify-content: center;
     align-items:center;
+    border: 3px solid;
+    border-radius: 5px;
     background-size: 346px 100%;
     background-repeat: no-repeat;
 }
@@ -135,7 +139,8 @@ nav {
 #web_link, #light_link{
     color: #1C4670;
     background-color:ivory;
-    opacity: .8;
+    border: 1px solid;
+    border-radius: 3px;
 }
 
 /* SCREEN SIZE SETTINGS AND CONTROL */
